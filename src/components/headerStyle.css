@@ -1,0 +1,15 @@
+.header{
+    width: 100vw;
+    height: 100vh;
+    background:url(./images/header-bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    opacity: 0.9;
+    padding: 10px;
+    
+}
+
+.navBar{
+    background-color: red;
+}
