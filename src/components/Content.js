@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import ContentStyle from './ContentStyle.css';
+
 
 function content() {
   return (

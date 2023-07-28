@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
     <div className='navBar'>
-      <h2><span>Per</span>Fume</h2>
+      <h2>PerFume</h2>
       <div className='navLinks'>
         <ul>
           <u><li><a href='#'>Home</a></li></u>
@@ -23,7 +23,7 @@ function Navbar() {
       <div className='navIcons'>
       <FontAwesomeIcon icon={faSearch} />
         <FontAwesomeIcon icon={faCartShopping} />
-        <button>Login</button>
+        <button className='login'>Login</button>
         
       </div>
       
