@@ -1,7 +1,7 @@
 .header{
     width: 100vw;
     height: 100vh;
-    background:url(./images/header-bg4.jpg);
+    background:url(images/header-bg4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:left;
@@ -81,6 +81,7 @@ u{
     font-weight: bolder;
     background-color: #db54e9;
     cursor: pointer;
+    box-shadow: 1px 1px #fff;
 
 }
 
@@ -115,4 +116,6 @@ h1{
     font-weight: bolder;
     background-color: #db54e9;
     cursor: pointer;
+    box-shadow: 1px 1px #fff;
+
 }
