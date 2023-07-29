@@ -49,3 +49,33 @@
     color: #f1f3f4;
 
 }
+
+.our-store{
+    background-color: black;
+    
+}
+
+.our-store h3{
+    color: #f1f3f4;
+}
+
+.store-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-img{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.store-img img{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    opacity: 0.7;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
