@@ -51,31 +51,62 @@
 }
 
 .our-store{
-    background-color: black;
-    
+    width: 100%;
+    background:url(./images/purple-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+    opacity: 0.5;
 }
 
 .our-store h3{
     color: #f1f3f4;
+    font-size: 36px;
+    
 }
 
 .store-content{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .store-img{
     padding: 5px;
-    margin-left: 10px;
+    margin: 5px;
+    /* margin-left: 10px; */
 }
 
 .store-img img{
-    width: 350px;
-    height: 400px;
+    width: 190px;
+    height: 220px;
     border-radius: 20px;
     opacity: 0.7;
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.store-text{
+    background-color: rgb(20, 1, 20);
+    display:block;
+    
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px #db54e9;
+}
+
+.store-text h3{
+    font-size: 30px;
+}
+
+.store-text p{
+    font-size: 18px;
+    color: #f1f3f4;
 }
