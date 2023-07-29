@@ -1,5 +1,51 @@
 .main-content{
     width: 100%;
     height: max-content;
-    background-color: aliceblue;
+    padding: 10px;
+    
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.content-text{
+    width: 30%;
+    align-content: center;
+    padding: 10px;
+    
+}
+
+.content-img{
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.content-img img{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    opacity: 0.7;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.content-text h3{
+    font-size: 36px;
+    color: #f1f3f4;
+
+}
+
+.content-text p{
+    font-size: 18px;
+    color: #f1f3f4;
+
 }
