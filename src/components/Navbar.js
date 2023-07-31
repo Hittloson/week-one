@@ -22,7 +22,7 @@ function Navbar() {
       
       <div className='navIcons'>
       <FontAwesomeIcon icon={faSearch} />
-        <FontAwesomeIcon icon={faCartShopping} />
+      <FontAwesomeIcon icon={faCartShopping} />
         <button className='login'>Login</button>
         
       </div>
