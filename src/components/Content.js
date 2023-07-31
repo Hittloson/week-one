@@ -50,7 +50,7 @@ function content() {
         <h3>Our Store</h3>
         <div className='store-content'>
           <div className='store-img'>
-            <img src='image/img-group2.jpg'/>
+            <img src='image/img-group1.jpg'/>
           </div>
           <div className='store-text'>
             <h3><center>We Are Open</center></h3>
@@ -58,7 +58,7 @@ function content() {
             <p><center>Sat-Sun <br/>From 10:00 to 19:00</center></p>
           </div>
           <div className='store-img'>
-            <img src='image/img-group2.jpg'/>
+            <img src='image/img-6.jpg'/>
           </div>
         </div>
       </div>

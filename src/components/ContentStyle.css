@@ -40,13 +40,13 @@
 
 .content-text h3{
     font-size: 36px;
-    color: #f1f3f4;
+    color: #f1f1f1;
 
 }
 
 .content-text p{
     font-size: 18px;
-    color: #f1f3f4;
+    color: #f1f1f1;
 
 }
 
@@ -58,11 +58,11 @@
     display: grid;
     place-items: center;
     padding-bottom: 20px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .our-store h3{
-    color: #f1f3f4;
+    color: #f1f1f1;
     font-size: 36px;
     
 }
@@ -84,7 +84,7 @@
     width: 190px;
     height: 220px;
     border-radius: 20px;
-    opacity: 0.7;
+    opacity: 0.9;
     border: none;
     outline: none;
     cursor: pointer;
@@ -99,7 +99,7 @@
     height: 250px;
     margin-bottom: 5px;
     border-radius: 20px;
-    box-shadow: 2px 2px #db54e9;
+    box-shadow: 2px 2px #8B499F;
 }
 
 .store-text h3{
@@ -108,5 +108,5 @@
 
 .store-text p{
     font-size: 18px;
-    color: #f1f3f4;
+    color: #f1f1f1;
 }

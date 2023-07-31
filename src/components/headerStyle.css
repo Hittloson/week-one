@@ -21,7 +21,7 @@
 }
 
 h2{
-    color: #db54e9;
+    color: #8B499F;
     padding-left: 15px;
     padding-top: 14px;
     margin-top:2px;
@@ -47,13 +47,13 @@ a{
     font-weight: bolder;
 }
 a:hover{
-    color: #db54e9;
+    color: #8B499F;
     cursor: pointer;
 }
 
 
 u{
-    color: #db54e9;
+    color: #8B499F;
     
 }
 
@@ -79,7 +79,7 @@ u{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: bolder;
-    background-color: #db54e9;
+    background-color: #8B499F;
     cursor: pointer;
     box-shadow: 1px 1px #fff;
 
@@ -97,7 +97,7 @@ u{
     color: #f1f3f4;
 }
 span{
-    color: #db54e9;
+    color: #8B499F;
 }
 h1{
     font-size: 38px;
@@ -110,11 +110,11 @@ h1{
     border-radius: 40px;
     outline: none;
     border: none;
-    color:  #f1f3f4;
+    color:  #f1f1f1;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: bolder;
-    background-color: #db54e9;
+    background-color: #8B499F;
     cursor: pointer;
     box-shadow: 1px 1px #fff;
 
