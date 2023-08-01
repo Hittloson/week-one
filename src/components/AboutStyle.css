@@ -1,5 +1,5 @@
 .About-us{
-    background-color: rgb(223, 218, 218);
+    /* background-color: rgb(223, 218, 218); */
     padding: 10px;
 }
 
@@ -33,5 +33,63 @@
     background-color: #110317;
     color:  #f1f1f1;
     box-shadow: 0.3px 0.3px #8B499F;
+    
+}
+
+.testimony{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    
+    
+}
+
+.testimony-details{
+    background-color: #1A2530;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #8B499F;
+}
+
+
+.image-names-job{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5%;
+    line-height: 10%;
+    padding: 10px;
+    
+}
+
+.testimonial-image img{
+    width: 70px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 30%;
+    box-shadow: 2px 2px #8B499F;
+}
+.image-names-job h3{
+    color:#f1f1f1;
+    font-size: 17px;
+}
+
+.image-names-job p{
+    color:#f1f1f1;
+    font-size: 12px;
+}
+
+.description p{
+    color:#f1f1f1;
+    line-height:95%;
+    font-size: 12px;
+    
+}
+.fa-star{
+    color: gold;
+    margin-left: 10px;
     
 }
