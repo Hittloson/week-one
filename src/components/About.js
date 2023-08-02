@@ -7,12 +7,13 @@ function About() {
   const [visibleTestimonials, setVisibleTestimonials] = useState(2);
 
   const showNextTestimonials = () => {
-    setVisibleTestimonials(prevVisible => prevVisible + 2);
+    setVisibleTestimonials((prevVisible) =>Math.min(prevVisible +2, testimonials.length));
   };
 
   const showPreviousTestimonials = () => {
-    setVisibleTestimonials(prevVisible => prevVisible - 2);
+    setVisibleTestimonials((prevVisible) => Math.max(prevVisible - 2, 2));
   };
+
 
   // Define the array of testimonials
 const testimonials = [
@@ -61,6 +62,9 @@ const testimonials = [
   
 ];
 
+
+const testimonialWidth = 100 / visibleTestimonials;
+
   return (
     <div className='About-us'>
       <div className='about-us-header'>
@@ -79,7 +83,14 @@ const testimonials = [
         </div>
       </div>
 
-      <div className='testimony'>
+      <div className='testimony'
+      style={{
+        transform: `translateX(-${(visibleTestimonials - 2) * testimonialWidth}%)`,
+        transition: 'transform 0.5s ease-in-out',
+      }}
+      
+      >
+
         {testimonials.slice(0, visibleTestimonials).map((testimonial, index) => (
           <div className='testimony-details' key={index}>
             <div className='image-names-job'>
@@ -109,8 +120,4 @@ const testimonials = [
 }
 
 export default About;
-
-
-
-
 
