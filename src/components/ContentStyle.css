@@ -140,3 +140,17 @@
     color: #f1f1f1;
     font-size: 22px;
 }
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .FAQ-content.hidden {
+    background-color: #1A2530;
+    border: 2px solid #8B499F;
+  }
