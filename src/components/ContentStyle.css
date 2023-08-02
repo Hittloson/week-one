@@ -122,16 +122,21 @@
     place-items: center;
     padding-bottom: 20px;
     opacity: 0.6;
+    color: #f1f1f1;
     
 }
 
 .FAQ-content{
     background-color: #8B499F;
-    width: 90%;
+    width: 70%;
     height: max-content;
     padding: 10px;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 20px;
 }
 
 .FAQ-content h1{
     color: #f1f1f1;
+    font-size: 22px;
 }
