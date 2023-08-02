@@ -121,13 +121,17 @@
     display: grid;
     place-items: center;
     padding-bottom: 20px;
-    opacity: 0.7;
+    opacity: 0.6;
+    
 }
 
-.question-answer{
-    background-color: #f1f1f1;
+.FAQ-content{
+    background-color: #8B499F;
+    width: 90%;
+    height: max-content;
+    padding: 10px;
 }
 
-.question-answer h1{
+.FAQ-content h1{
     color: #f1f1f1;
 }
