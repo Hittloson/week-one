@@ -8,11 +8,11 @@ import Questions from './Questions';
 function AboutUs() {
   return (
     <div>
-        <Header />
-        <Content />
-        <About />
-        <Questions/>
-        <Footer />
+      <Header />
+      <Content />
+      <About />
+      <Questions/>
+      <Footer />
     </div>
   )
 }
