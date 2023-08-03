@@ -157,6 +157,7 @@
 
   .why-us-container{
     color: #f1f1f1;
+    margin-bottom: 10px;
   }
   .why-us-main{
     display: flex;
@@ -170,9 +171,9 @@
   .why-us-content{
     display: grid;
     place-items: center;
+    align-items: center;
     padding: 10px;
     text-align: center;
-    background-color: aqua;
     margin: 5px 10px;
   }
   .why-us-content .svg-inline--fa{
@@ -191,4 +192,23 @@
     color: #f1f1f1;
     margin-bottom: 0;
     
+  }
+
+  .footer-container{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  hr{
+    width: 100%;
+    height: 4px;
+    background-color:#c5c5c5;
+    border: none;
+  }
+  .copy-right p{
+    color: #f1f1f1;
+    text-align: center;
   }
