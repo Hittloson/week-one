@@ -162,7 +162,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 95%;
     margin: auto;
     padding: 10px;
@@ -171,11 +171,24 @@
     display: grid;
     place-items: center;
     padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    margin: 5px 10px;
   }
   .why-us-content .svg-inline--fa{
-    font-size: 22px;
+    font-size: 18px;
     background-color:#8B499F;
     padding: 10px;
     border-radius: 50%;
+    
+  }
+
+  .why-us-container h1{
+    text-align: center;
+  }
+
+  .why-us-content h2{
+    color: #f1f1f1;
+    margin-bottom: 0;
     
   }
