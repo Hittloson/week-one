@@ -154,3 +154,28 @@
     background-color: #1A2530;
     border: 2px solid #8B499F;
   }
+
+  .why-us-container{
+    color: #f1f1f1;
+  }
+  .why-us-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+  }
+  .why-us-content{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+  }
+  .why-us-content .svg-inline--fa{
+    font-size: 22px;
+    background-color:#8B499F;
+    padding: 10px;
+    border-radius: 50%;
+    
+  }

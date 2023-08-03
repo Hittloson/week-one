@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import headerStyle from './headerStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -14,9 +15,9 @@ function Navbar() {
       <h2>PerFume</h2>
       <div className='navLinks'>
         <ul>
-          <u><li><a href='#'>Home</a></li></u>
-          <u><li><a href='#'>Categories</a></li></u>
-          <u><li><a href='#'>About</a></li></u>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/categories">Categories</Link></li>
+          <li><Link to="/about">About</Link></li>
         </ul>
       </div>
       

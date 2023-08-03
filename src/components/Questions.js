@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faX, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faX, faPlus,faTruck,faTags,faHeadphones } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 
 function Questions() {
@@ -38,8 +38,31 @@ function Questions() {
       </div>
     </div>
 
-    <div>
-            <h1>Hello</h1>
+    <div className='why-us-container'>
+        <h1>Why Us?</h1>
+        <div className='why-us-main'>
+            <div className='why-us-content'>
+                <FontAwesomeIcon icon={faTruck} />
+                <h2>Fast Delivery</h2>
+                <p>Reference site about Lorem Ipsum, 
+                giving information on its origins, 
+                as well as a random Lipsum generator.</p>
+            </div>
+            <div className='why-us-content'>
+                <FontAwesomeIcon icon={faTags} />
+                <h2>High Quality</h2>
+                <p>Reference site about Lorem Ipsum, 
+                giving information on its origins, 
+                as well as a random Lipsum generator.</p>
+            </div>
+            <div className='why-us-content'>
+                <FontAwesomeIcon icon={faHeadphones} />
+                <h2>24/7 Support</h2>
+                <p>Reference site about Lorem Ipsum, 
+                giving information on its origins, 
+                as well as a random Lipsum generator.</p>
+            </div>
+        </div>
     </div>
     </>
    
